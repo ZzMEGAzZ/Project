@@ -25,9 +25,7 @@ def position_check():
 
 def main():
     time.sleep(5)
-    loop = 0
-    while loop < 30:
+    for round in range(30):
         auto_fill_ggfrom()
-        loop += 1
 
 main()
